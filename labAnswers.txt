@@ -1,0 +1,4 @@
+1.clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) in order to specify a TCP socket 
+2. A client socket is a socket that requests information. A client socket is a socket that sends information or can act as a client. 
+3. clientSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+4. 
